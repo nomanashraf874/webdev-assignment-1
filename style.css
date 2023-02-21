@@ -32,4 +32,23 @@ body {
   color: #FFF;
   text-decoration: none;
 }
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#content h2 {
+  margin-top: 0;
+}
+#image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#image-container img {
+  width: 300px;
+  height: 200px;
+}
 
